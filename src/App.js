@@ -1,12 +1,16 @@
 import React from "react";
-import "./App.css";
-import Loader from "./Loader";
+import Loader from "./loader";
+import styled from "@emotion/styled";
+
+const AppWrapper = styled.div`
+  text-align: "center";
+`;
 
 function App() {
   return (
-    <div className="App">
+    <AppWrapper>
       <Loader />
-    </div>
+    </AppWrapper>
   );
 }
 

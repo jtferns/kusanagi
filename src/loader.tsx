@@ -63,8 +63,8 @@ const Header = styled.header`
     }
   }
 
-  animation: colorchange 45s;
-  -webkit-animation: colorchange 45s; /* Chrome and Safari */
+  animation: colorchange infinite 45s;
+  -webkit-animation: colorchange infinite 45s; /* Chrome and Safari */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -74,7 +74,8 @@ const Header = styled.header`
   color: #8da0cb;
 `;
 
-const SpinningSync = styled(Sync)`
+// TODO: figure out why styled types 💥 (ts2589)
+const SpinningSync: any = styled(Sync)`
   @keyframes Loader-logo-spin {
     from {
       transform: rotate(360deg);

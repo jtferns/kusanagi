@@ -1,7 +1,8 @@
 import React from "react"
-import Sync from "@material-ui/icons/Sync"
 import styled from "@emotion/styled"
 import { Footer } from "./footer"
+import { EventCard } from "./event-card"
+import { getEventCards } from "../utils/get-event-cards"
 
 const Header = styled.header`
   @keyframes colorchange {
@@ -133,26 +134,16 @@ const Header = styled.header`
   }
 `
 
-// TODO: figure out why styled types 💥 (ts2589)
-const SpinningSync: any = styled(Sync)`
-  @keyframes Loader-logo-spin {
-    from {
-      transform: rotate(360deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
-  }
-  animation: Loader-logo-spin infinite 10s linear;
-  height: 40vmin !important;
-  width: 40vmin !important;
-  pointer-events: none;
-`
+const events = getEventCards()
 
 export const Loader = () => (
   <Header>
-    <p>Loading...</p>
-    <SpinningSync />
+    <span role="img" aria-label="page sparkles soon">
+      📃✨🔜
+    </span>
+    {events.map(e => (
+      <EventCard {...e} />
+    ))}
     <Footer />
   </Header>
 )

@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { Loader } from "./loader"
+import { Loader } from "./components/loader"
 
 const AppWrapper = styled.div`
   text-align: "center";

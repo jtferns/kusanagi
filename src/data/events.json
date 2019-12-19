@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Morse Alphabet",
+    "start": "04/01/2015",
+    "end": "06/01/2015",
+    "summary": "An attempt at a d3-based connect-the-dots solver, built on Yeoman+AngularJS and hosted on Github Pages.",
+    "links": [
+      {
+        "link": "http://jtferns.github.io/morse-alphabet",
+        "text": "Demo",
+        "icon": "Cloud"
+      }
+    ],
+    "tags": ["Personal"]
+  },
+  {
+    "title": "Oculi Crafter",
+    "start": "02/01/2015",
+    "end": "06/01/2015",
+    "summary": "Simple application mimicking crafting from Child of Light (PS3, Ubisoft), built on Ember.js using ember-cli and hosted on GitHub Pages.",
+    "links": [
+      {
+        "link": "https://pbjapps.github.io/oculi_crafter",
+        "text": "Demo",
+        "icon": "Cloud"
+      },
+      {
+        "link": "https://github.com/pbjapps/oculi_crafter",
+        "text": "Source",
+        "icon": "Code"
+      }
+    ],
+    "tags": ["Personal", "Team"]
+  },
+  {
+    "title": "Smoke Signal",
+    "start": "02/01/2015",
+    "end": "06/01/2015",
+    "summary": "A simple list that attempts to list the server status of various HL7 FHIR servers using Jekyll, JS, and GitHub Pages.",
+    "links": [
+      {
+        "link": "https://jtferns.github.io/smoke-signal",
+        "text": "Demo",
+        "icon": "Cloud"
+      },
+      {
+        "link": "https://github.com/jtferns/smoke-signal",
+        "text": "Source",
+        "icon": "Code"
+      }
+    ],
+    "tags": ["Personal"]
+  },
+  {
+    "title": "Symphony Daily Devotions App",
+    "start": "07/01/2013",
+    "end": "06/01/2015",
+    "summary": "Stream devotional recordings on Android with ultimate flexibility via GitHub-backed data store.",
+    "links": [
+      {
+        "link": "https://github.com/pbjapps/sdd-android",
+        "text": "Source",
+        "icon": "Code"
+      }
+    ],
+    "tags": ["Personal", "Team"]
+  },
+  {
+    "title": "Algorithmic Odyssey",
+    "start": "01/01/2013",
+    "end": "05/01/2013",
+    "summary": "Top-down, turn-based strategy game with random map generation and fully customizable character development, built with Java using Slick2D with custom graphics.",
+    "links": [
+      {
+        "link": "https://youtu.be/ATG4rY0u8ic",
+        "text": "Video",
+        "icon": "VideoLibrary"
+      },
+      {
+        "link": "https://jtferns.github.io/ao-slides",
+        "text": "Presentation",
+        "icon": "PresentToAll"
+      }
+    ],
+    "tags": ["Course", "Team"]
+  },
+  {
+    "title": "KocoonTech LLC, Prototyping Sensor Mote",
+    "start": "01/01/2012",
+    "end": "05/01/2012",
+    "summary": "Wireless, multi-sensor integration (humidity, temperature, heart-rate, orientation) on Libelium’s Waspmote hardware, with real-time communication to companion desktop NetBeans UI.",
+    "links": [],
+    "tags": ["Personal", "Team"]
+  },
+  {
+    "title": "\"Pwning\" Netgear WNDR Routers",
+    "start": "09/01/2012",
+    "end": "12/01/2012",
+    "summary": "A project for BU EC521 Cybersecurity, where we reproduced a BlackHat talk on hacking a Netgear small office/home office router.",
+    "links": [],
+    "tags": ["Course", "Team"]
+  },
+  {
+    "title": "Multicycle CPU Design",
+    "start": "09/01/2011",
+    "end": "12/01/2011",
+    "summary": "A project for BU EC413 Computer Organization, where I designed and implemented a Multicycle CPU in Verilog.",
+    "links": [],
+    "tags": ["Course"]
+  },
+  {
+    "title": "MSP430 \"Lighthouse\"",
+    "start": "09/01/2011",
+    "end": "12/01/2011",
+    "summary": "A project for BU EC450 Microprocessors, where we created a custom laboratory barcode scanner using a CD-ROM drive bay, a laser pointer, and an MSP430.",
+    "links": [],
+    "tags": ["Course", "Team"]
+  },
+  {
+    "title": "Custom FPGA Microprocessor",
+    "start": "01/01/2011",
+    "end": "05/01/2011",
+    "summary": "A project for BU EC311 Logic Design, where we designed and implemented a custom single-cycle CPU in Verilog and an instruction set with a C compiler.",
+    "links": [],
+    "tags": ["Course", "Team"]
+  },
+  {
+    "title": "ImageRecognizer App",
+    "start": "01/01/2010",
+    "end": "05/01/2010",
+    "summary": "A project for BU EC327 Software Engineering, where we designed an Android application to save images, tag them, and recognize them in future images.",
+    "links": [],
+    "tags": ["Course", "Team"]
+  }
+]

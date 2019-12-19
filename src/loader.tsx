@@ -1,6 +1,7 @@
-import React from "react";
-import Sync from "@material-ui/icons/Sync";
-import styled from "@emotion/styled";
+import React from "react"
+import Sync from "@material-ui/icons/Sync"
+import styled from "@emotion/styled"
+import { Footer } from "./footer"
 
 const Header = styled.header`
   @keyframes colorchange {
@@ -71,8 +72,12 @@ const Header = styled.header`
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #8da0cb;
-`;
+  color: #ffffff;
+
+  a {
+    color: #ffffff;
+  }
+`
 
 // TODO: figure out why styled types 💥 (ts2589)
 const SpinningSync: any = styled(Sync)`
@@ -88,17 +93,12 @@ const SpinningSync: any = styled(Sync)`
   height: 40vmin !important;
   width: 40vmin !important;
   pointer-events: none;
-`;
+`
 
-class Loader extends React.Component {
-  render() {
-    return (
-      <Header>
-        <p>Loading...</p>
-        <SpinningSync />
-      </Header>
-    );
-  }
-}
-
-export default Loader;
+export const Loader = () => (
+  <Header>
+    <p>Loading...</p>
+    <SpinningSync />
+    <Footer />
+  </Header>
+)

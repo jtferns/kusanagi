@@ -8,29 +8,56 @@ const Header = styled.header`
     0% {
       background: #fbb4ae;
     }
-    12.5% {
+    6% {
       background: #b3cde3;
     }
-    25% {
+    12% {
       background: #ccebc5;
     }
-    37.5% {
+    18% {
       background: #decbe4;
     }
-    50% {
+    24% {
       background: #fed9a6;
     }
-    62.5% {
+    30% {
       background: #ffffcc;
     }
-    75% {
+    36% {
       background: #e5d8bd;
     }
-    87.5% {
+    42% {
       background: #fddaec;
     }
-    100% {
+    48% {
       background: #f2f2f2;
+    }
+    54% {
+      background: #f2f2f2;
+    }
+    60% {
+      background: #fddaec;
+    }
+    66% {
+      background: #e5d8bd;
+    }
+    72% {
+      background: #ffffcc;
+    }
+    78% {
+      background: #fed9a6;
+    }
+    84% {
+      background: #decbe4;
+    }
+    90% {
+      background: #ccebc5;
+    }
+    96% {
+      background: #b3cde3;
+    }
+    100% {
+      background: #fbb4ae;
     }
   }
 
@@ -38,29 +65,56 @@ const Header = styled.header`
     0% {
       background: #fbb4ae;
     }
-    12.5% {
+    6% {
       background: #b3cde3;
     }
-    25% {
+    12% {
       background: #ccebc5;
     }
-    37.5% {
+    18% {
       background: #decbe4;
     }
-    50% {
+    24% {
       background: #fed9a6;
     }
-    62.5% {
+    30% {
       background: #ffffcc;
     }
-    75% {
+    36% {
       background: #e5d8bd;
     }
-    87.5% {
+    42% {
       background: #fddaec;
     }
-    100% {
+    48% {
       background: #f2f2f2;
+    }
+    54% {
+      background: #f2f2f2;
+    }
+    60% {
+      background: #fddaec;
+    }
+    66% {
+      background: #e5d8bd;
+    }
+    72% {
+      background: #ffffcc;
+    }
+    78% {
+      background: #fed9a6;
+    }
+    84% {
+      background: #decbe4;
+    }
+    90% {
+      background: #ccebc5;
+    }
+    96% {
+      background: #b3cde3;
+    }
+    100% {
+      background: #fbb4ae;
     }
   }
 

@@ -56,7 +56,7 @@ export const EventCard = (props: EventCardProps) => {
         {props.chips &&
           props.chips.length &&
           props.chips.map((c, i) => (
-            <Chip key={i} size="small" label={c.label} />
+            <Chip key={i} label={c.label} color="primary" />
           ))}
       </CardActions>
     </Card>

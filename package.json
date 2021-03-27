@@ -11,7 +11,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.3.0",
-    "surge": "^0.21.7",
+    "surge": "^0.22.1",
     "typed.js": "^2.0.12"
   },
   "scripts": {

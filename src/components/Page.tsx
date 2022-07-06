@@ -1,10 +1,10 @@
 import React from "react"
-import styled from "@emotion/styled"
-import { Footer } from "./footer"
-import { EventCard } from "./event-card"
-import { getEventCards } from "../utils/get-event-cards"
+import styled from "styled-components"
+import { Footer } from "./Footer"
+import { getEventCards } from "../utils/getEventCard"
+import { EventList } from "./EventList"
 
-const Header = styled.header`
+const Wrapper = styled.div`
   @keyframes colorchange {
     0% {
       background: #fbb4ae;
@@ -119,31 +119,26 @@ const Header = styled.header`
     }
   }
 
-  animation: colorchange infinite 45s;
-  -webkit-animation: colorchange infinite 45s; /* Chrome and Safari */
+  animation: colorchange infinite 90s;
+  -webkit-animation: colorchange infinite 90s; /* Chrome and Safari */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #ffffff;
-
-  a {
-    color: #ffffff;
-  }
 `
 
 const events = getEventCards()
 
-export const Loader = () => (
-  <Header>
-    <span role="img" aria-label="page sparkles soon">
-      📃✨🔜
-    </span>
-    {events.map(e => (
-      <EventCard {...e} />
-    ))}
+export const Page = () => (
+  <Wrapper>
+    <header>
+      <span role="img" aria-label="page sparkles soon">
+        📃✨🔜
+      </span>
+    </header>
+    <EventList events={events} />
     <Footer />
-  </Header>
+  </Wrapper>
 )

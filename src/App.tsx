@@ -1,17 +1,8 @@
 import React from "react"
-import styled from "@emotion/styled"
-import { Loader } from "./components/loader"
-
-const AppWrapper = styled.div`
-  text-align: "center";
-`
+import { Page } from "./components/Page"
 
 function App() {
-  return (
-    <AppWrapper>
-      <Loader />
-    </AppWrapper>
-  )
+  return <Page />
 }
 
 export default App

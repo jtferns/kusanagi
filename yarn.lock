@@ -5462,6 +5462,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"date-fns@npm:^2.28.0":
+  version: 2.28.0
+  resolution: "date-fns@npm:2.28.0"
+  checksum: a0516b2e4f99b8bffc6cc5193349f185f195398385bdcaf07f17c2c4a24473c99d933eb0018be4142a86a6d46cb0b06be6440ad874f15e795acbedd6fd727a1f
+  languageName: node
+  linkType: hard
+
 "debug@npm:2.6.9, debug@npm:^2.6.0, debug@npm:^2.6.9":
   version: 2.6.9
   resolution: "debug@npm:2.6.9"
@@ -8744,6 +8751,7 @@ __metadata:
     "@types/styled-components": ^5.1.25
     autoprefixer: ^10.4.7
     babel-plugin-macros: ^3.1.0
+    date-fns: ^2.28.0
     postcss-cli: ^10.0.0
     prettier: ^2.7.1
     react: ^18.2.0

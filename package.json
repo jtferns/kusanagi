@@ -1,6 +1,6 @@
 {
   "name": "kusanagi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -10,6 +10,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "date-fns": "^2.28.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",

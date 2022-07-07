@@ -15,7 +15,11 @@ const CardContent = styled.div`
 `
 
 const Header = styled.h2`
-  ${tw`flex justify-between`}
+  ${tw`flex justify-between items-center`}
+`
+
+const Subheader = styled.small`
+  ${tw`text-sm`}
 `
 
 const Content = styled.div`
@@ -38,7 +42,7 @@ export const EventCard = ({
       <CardContent>
         <Header>
           {title}
-          <small>{subheader}</small>
+          <Subheader>{subheader}</Subheader>
         </Header>
         {content && (
           <Content>

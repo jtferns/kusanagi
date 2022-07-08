@@ -5,11 +5,12 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@testing-library/user-event": "^14.2.1",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "d3-scale-chromatic": "^3.0.0",
     "date-fns": "^2.28.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -44,12 +45,13 @@
     ]
   },
   "devDependencies": {
+    "@types/d3-scale-chromatic": "^3.0.0",
     "@types/styled-components": "^5.1.25",
     "autoprefixer": "^10.4.7",
     "babel-plugin-macros": "^3.1.0",
     "postcss-cli": "^10.0.0",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.1.4",
+    "tailwindcss": "^3.1.5",
     "twin.macro": "^2.8.2"
   }
 }

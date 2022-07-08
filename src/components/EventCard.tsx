@@ -33,8 +33,9 @@ const Footer = styled.div`
 export const EventCard = ({
   title,
   subheader,
+  subheaderDesc,
   content,
-  chips,
+  tags,
   links,
 }: EventCardTypes.Props) => {
   return (
@@ -42,7 +43,7 @@ export const EventCard = ({
       <CardContent>
         <Header>
           {title}
-          <Subheader>{subheader}</Subheader>
+          <Subheader title={subheaderDesc}>{subheader}</Subheader>
         </Header>
         {content && (
           <Content>
@@ -51,7 +52,7 @@ export const EventCard = ({
         )}
         <Footer>
           <Links links={links} />
-          <Tags tags={chips || []} />
+          <Tags tags={tags || []} />
         </Footer>
       </CardContent>
     </Card>

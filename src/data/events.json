@@ -27,6 +27,11 @@
         "link": "https://tomelist.surge.sh/",
         "text": "Demo",
         "icon": "Cloud"
+      },
+      {
+        "link": "https://github.com/jtferns/tomelist",
+        "text": "Source",
+        "icon": "Code"
       }
     ],
     "tags": ["Personal"]

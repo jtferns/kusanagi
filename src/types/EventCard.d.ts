@@ -1,17 +1,13 @@
 import { Event } from "./Event"
 
 export namespace EventCardTypes {
-  type ChipContent = {
-    icon?: string
-    label: string
-  }
-
   export type Props = {
     avatar?: ReactNode
     title?: string
     subheader?: string
+    subheaderDesc?: string
     content?: string
-    chips?: ChipContent[]
+    tags?: Event.Tag[]
     links: Event.Link[]
   }
 }

@@ -1,5 +1,73 @@
 [
   {
+    "title": "PokéSearch",
+    "start": "06/01/2022",
+    "summary": "Quick Vue.js blitz using PokéAPI data.",
+    "links": [
+      {
+        "link": "https://pokesearch.surge.sh/",
+        "text": "Demo",
+        "icon": "Cloud"
+      },
+      {
+        "link": "https://github.com/jtferns/pokesearch",
+        "text": "Source",
+        "icon": "Code"
+      }
+    ],
+    "tags": ["Personal"]
+  },
+  {
+    "title": "Tomelist",
+    "start": "05/01/2021",
+    "end": "07/01/2022",
+    "summary": "Simple UI for tracking FFXIV Moogle Tomestone events, built with React + TS + Theme UI.",
+    "links": [
+      {
+        "link": "https://tomelist.surge.sh/",
+        "text": "Demo",
+        "icon": "Cloud"
+      },
+      {
+        "link": "https://github.com/jtferns/tomelist",
+        "text": "Source",
+        "icon": "Code"
+      }
+    ],
+    "tags": ["Personal"]
+  },
+  {
+    "title": "Metasift",
+    "start": "12/01/2019",
+    "summary": "Open Access MET Collection simple visual search UI, built with React + Material UI.",
+    "links": [
+      {
+        "link": "https://metasift.surge.sh",
+        "text": "Demo",
+        "icon": "Cloud"
+      }
+    ],
+    "tags": ["Personal"]
+  },
+  {
+    "title": "Beer Patrol",
+    "start": "08/01/2018",
+    "summary": "A quick, SPA table app proof-of-concept.",
+    "links": [
+      {
+        "link": "https://beer-patrol.surge.sh",
+        "text": "Demo",
+        "icon": "Cloud"
+      },
+      {
+        "link": "https://github.com/jtferns/beer-patrol",
+        "text": "Source",
+        "icon": "Code"
+      }
+    ],
+    "tags": ["Personal"]
+  },
+  {
     "title": "Morse Alphabet",
     "start": "04/01/2015",
     "end": "06/01/2015",

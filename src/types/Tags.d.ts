@@ -1,11 +1,7 @@
-export namespace TagsTypes {
-  type Tag = {
-    icon?: string
-    color?: string
-    label: string
-  }
+import { Event } from "./Event"
 
+export namespace TagsTypes {
   export type Props = {
-    tags: Tag[]
+    tags: Event.Tag[]
   }
 }
